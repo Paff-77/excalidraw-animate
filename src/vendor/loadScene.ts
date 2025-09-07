@@ -7,7 +7,7 @@ import type { ImportedDataState } from '@excalidraw/excalidraw/data/types';
 const t = (s: string) => s;
 
 // const BACKEND_GET = "https://json.excalidraw.com/api/v1/";
-const BACKEND_V2_GET = 'https://json.excalidraw.com/api/v2/';
+const BACKEND_V2_GET = 'https://draw.kirino.de/api/v2/';
 const IV_LENGTH_BYTES = 12; // 96 bits
 const ENCRYPTION_KEY_BITS = 128;
 const CONCAT_BUFFERS_VERSION = 1;
